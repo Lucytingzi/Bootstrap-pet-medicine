@@ -1,0 +1,91 @@
+
+.hidden {
+	display: none;
+
+}
+
+.body {
+
+	overflow: hidden;
+}
+
+img {
+
+	max-width: 100%;
+}
+
+.jumbotron .row {
+	width: 100%;
+	margin: 0; 
+	padding-left: 5px;
+	
+}
+
+.thumbnail {
+
+	width: 300px;
+}
+
+.row h1 {
+
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 20px;
+
+}
+
+footer {
+
+	margin-top:  5px;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+
+}
+
+.row h1 {
+	text-align: left;
+}
+
+p > img {
+
+	margin-left: 3px;
+
+}
+
+.second {
+
+	margin-top: 15px;
+}
+
+.row.embed {
+
+	margin-top: 35px;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+	.hidden {
+		display: initial !important;
+		margin-top: 25px;
+    }
+
+    .jumbotron {
+
+    	margin-top: 15px;
+    }
+
+    .row h1 {
+		text-align: center;
+	}
+
+	.thumbnail {
+
+		width: 100%;
+	}
+}
+
+
+
+
